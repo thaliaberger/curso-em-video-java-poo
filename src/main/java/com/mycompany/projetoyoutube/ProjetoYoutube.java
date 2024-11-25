@@ -13,5 +13,10 @@ public class ProjetoYoutube {
 
         Aluno g = new Aluno("joaozinho", "Joao", 18, "Masculino");
         System.out.println(g);
+        
+        Visualizacao visualizacao = new Visualizacao(g, v[0]);
+        Visualizacao visualizacao2 = new Visualizacao(g, v[4]);
+
+        System.out.println(visualizacao.toString());
     }
 }
